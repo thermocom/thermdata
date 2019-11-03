@@ -188,3 +188,200 @@ exUnknownSensor: '/28.762079A20003/type'
 2019-11-03 13:50:18,938 - owif:53: readtemp 28.762079A20003 -> 19.125
 2019-11-03 13:50:20,371 - __main__:178: Sleeping 57.8083879948 seconds
 2019-11-03 13:50:20,415 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-03 13:50:20,459 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-03 13:50:20,530 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-03 13:51:18,929 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 13:51:18,938 - __main__:178: Sleeping 59.2871720791 seconds
+2019-11-03 13:52:18,970 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 13:52:18,976 - __main__:178: Sleeping 59.3097071648 seconds
+2019-11-03 13:53:19,049 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 13:53:19,057 - __main__:178: Sleeping 59.2883319855 seconds
+2019-11-03 13:54:19,068 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 13:54:19,073 - __main__:178: Sleeping 59.3315401077 seconds
+2019-11-03 13:55:19,246 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 13:55:19,263 - __main__:178: Sleeping 59.2019569874 seconds
+2019-11-03 13:56:19,179 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 13:56:19,187 - __main__:178: Sleeping 59.3285570145 seconds
+2019-11-03 13:57:18,756 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 13:57:18,763 - __main__:132: Could not get temp
+2019-11-03 13:58:19,499 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 13:58:19,507 - __main__:178: Sleeping 59.3284988403 seconds
+2019-11-03 13:59:19,039 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 13:59:19,043 - __main__:132: Could not get temp
+2019-11-03 14:00:19,888 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:00:19,893 - __main__:178: Sleeping 59.2131619453 seconds
+2019-11-03 14:01:19,879 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:01:19,892 - __main__:178: Sleeping 59.2426700592 seconds
+2019-11-03 14:02:19,858 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:02:19,867 - __main__:178: Sleeping 59.3281359673 seconds
+2019-11-03 14:03:19,936 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:03:19,943 - __main__:178: Sleeping 59.2720339298 seconds
+2019-11-03 14:04:19,939 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:04:19,947 - __main__:178: Sleeping 59.3303868771 seconds
+2019-11-03 14:05:21,809 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:05:21,817 - __main__:178: Sleeping 57.523859024 seconds
+2019-11-03 14:06:20,069 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:06:20,077 - __main__:178: Sleeping 59.3262000084 seconds
+2019-11-03 14:07:20,248 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:07:20,257 - __main__:178: Sleeping 59.2081618309 seconds
+2019-11-03 14:08:20,189 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:08:20,197 - __main__:178: Sleeping 59.3304240704 seconds
+2019-11-03 14:09:20,299 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:09:20,307 - __main__:178: Sleeping 59.2780687809 seconds
+2019-11-03 14:10:21,008 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 14:10:21,013 - __main__:178: Sleeping 58.6356468201 seconds
+2019-11-03 14:11:20,409 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:11:20,417 - __main__:178: Sleeping 59.2945640087 seconds
+2019-11-03 14:12:20,885 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:12:20,894 - __main__:178: Sleeping 58.8811302185 seconds
+2019-11-03 14:13:20,539 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:13:20,547 - __main__:178: Sleeping 59.2904930115 seconds
+2019-11-03 14:14:20,578 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:14:20,583 - __main__:178: Sleeping 59.311480999 seconds
+2019-11-03 14:15:20,729 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:15:20,742 - __main__:178: Sleeping 59.2155089378 seconds
+2019-11-03 14:16:20,629 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:16:20,637 - __main__:178: Sleeping 59.3280091286 seconds
+2019-11-03 14:17:20,778 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:17:20,787 - __main__:178: Sleeping 59.2382650375 seconds
+2019-11-03 14:18:20,689 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:18:20,697 - __main__:178: Sleeping 59.3379480839 seconds
+2019-11-03 14:19:20,789 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:19:20,797 - __main__:178: Sleeping 59.2881541252 seconds
+2019-11-03 14:20:20,884 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:20:20,890 - __main__:178: Sleeping 59.225217104 seconds
+2019-11-03 14:21:20,829 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:21:20,837 - __main__:178: Sleeping 59.2880268097 seconds
+2019-11-03 14:22:20,848 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:22:22,145 - __main__:178: Sleeping 58.0411930084 seconds
+2019-11-03 14:23:21,006 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:23:21,012 - __main__:178: Sleeping 59.2327699661 seconds
+2019-11-03 14:24:20,999 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:24:21,027 - __main__:178: Sleeping 59.2777910233 seconds
+2019-11-03 14:25:21,139 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:25:21,147 - __main__:178: Sleeping 59.2179198265 seconds
+2019-11-03 14:26:21,146 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:26:21,152 - __main__:178: Sleeping 59.2732460499 seconds
+2019-11-03 14:27:21,169 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:27:21,184 - __main__:178: Sleeping 59.280632019 seconds
+2019-11-03 14:28:21,179 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:28:21,187 - __main__:178: Sleeping 59.3262810707 seconds
+2019-11-03 14:29:21,303 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:29:21,309 - __main__:178: Sleeping 59.2686610222 seconds
+2019-11-03 14:30:21,399 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:30:21,407 - __main__:178: Sleeping 59.2324409485 seconds
+2019-11-03 14:31:20,865 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 14:31:20,870 - __main__:132: Could not get temp
+2019-11-03 14:32:21,609 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:32:21,615 - __main__:178: Sleeping 59.3182628155 seconds
+2019-11-03 14:33:21,669 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:33:21,681 - __main__:178: Sleeping 59.2838931084 seconds
+2019-11-03 14:34:21,698 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:34:21,703 - __main__:178: Sleeping 59.3214259148 seconds
+2019-11-03 14:35:21,868 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:35:21,874 - __main__:178: Sleeping 59.2137460709 seconds
+2019-11-03 14:36:21,789 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:36:21,797 - __main__:178: Sleeping 59.3279008865 seconds
+2019-11-03 14:37:21,948 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:37:21,953 - __main__:178: Sleeping 59.2313599586 seconds
+2019-11-03 14:38:21,906 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:38:21,917 - __main__:178: Sleeping 59.2978060246 seconds
+2019-11-03 14:39:21,939 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:39:21,947 - __main__:178: Sleeping 59.287997961 seconds
+2019-11-03 14:40:21,998 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:40:22,003 - __main__:178: Sleeping 59.2614588737 seconds
+2019-11-03 14:41:22,218 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:41:22,227 - __main__:178: Sleeping 59.0482051373 seconds
+2019-11-03 14:42:22,026 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:42:22,038 - __main__:178: Sleeping 59.3002269268 seconds
+2019-11-03 14:43:22,099 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:43:22,111 - __main__:178: Sleeping 59.2904160023 seconds
+2019-11-03 14:44:22,146 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:44:22,152 - __main__:178: Sleeping 59.3129470348 seconds
+2019-11-03 14:45:22,299 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:45:22,307 - __main__:178: Sleeping 59.2221860886 seconds
+2019-11-03 14:46:22,336 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:46:22,342 - __main__:178: Sleeping 59.250649929 seconds
+2019-11-03 14:47:22,359 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:47:22,367 - __main__:178: Sleeping 59.2883291245 seconds
+2019-11-03 14:48:22,436 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:48:22,445 - __main__:178: Sleeping 59.2696108818 seconds
+2019-11-03 14:49:22,479 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:49:22,487 - __main__:178: Sleeping 59.290583849 seconds
+2019-11-03 14:50:22,598 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:50:22,603 - __main__:178: Sleeping 59.2362520695 seconds
+2019-11-03 14:51:22,656 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:51:22,666 - __main__:178: Sleeping 59.2363438606 seconds
+2019-11-03 14:52:22,629 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:52:22,637 - __main__:178: Sleeping 59.327819109 seconds
+2019-11-03 14:53:22,745 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:53:24,271 - __main__:178: Sleeping 57.7577159405 seconds
+2019-11-03 14:54:22,699 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-03 14:54:22,707 - __main__:178: Sleeping 59.3278570175 seconds
+2019-11-03 14:55:22,949 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:55:22,955 - __main__:178: Sleeping 59.1396369934 seconds
+2019-11-03 14:56:22,829 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:56:22,837 - __main__:178: Sleeping 59.3226220608 seconds
+2019-11-03 14:57:22,356 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 14:57:22,361 - __main__:132: Could not get temp
+2019-11-03 14:58:23,126 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:58:23,131 - __main__:178: Sleeping 59.2915170193 seconds
+2019-11-03 14:59:23,159 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 14:59:23,171 - __main__:178: Sleeping 59.283354044 seconds
+2019-11-03 15:00:23,227 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:00:23,233 - __main__:178: Sleeping 59.2318460941 seconds
+2019-11-03 15:01:23,229 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:01:23,238 - __main__:178: Sleeping 59.2871699333 seconds
+2019-11-03 15:02:22,776 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:02:22,785 - __main__:178: Sleeping 59.8004150391 seconds
+2019-11-03 15:07:57,759 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:07:59,255 - __main__:178: Sleeping 57.0769720078 seconds
+2019-11-03 15:07:59,356 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
