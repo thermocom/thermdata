@@ -593,3 +593,17 @@ exUnknownSensor: '/28.762079A20003/type'
 2019-11-03 15:43:15,553 - owif:53: readtemp 28.762079A20003 -> 19.25
 2019-11-03 15:43:16,764 - __main__:178: Sleeping 57.959059 seconds
 2019-11-03 15:43:16,810 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-03 15:43:16,861 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-03 15:43:16,934 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-03 15:44:26,975 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:44:26,982 - __main__:178: Sleeping 59.3291192055 seconds
+2019-11-03 15:45:28,595 - gitif:25: git command failed: ['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/gitif.py", line 23, in fetch_setpoint
+    subprocess.check_call(cmd)
+  File "/usr/lib/python2.7/subprocess.py", line 190, in check_call
+    raise CalledProcessError(retcode, cmd)
+CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']' returned non-zero exit status 1
+2019-11-03 15:45:29,432 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:45:30,968 - __main__:178: Sleeping 57.6521821022 seconds
+2019-11-03 15:45:31,012 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
