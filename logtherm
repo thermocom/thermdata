@@ -385,3 +385,8 @@ exUnknownSensor: '/28.762079A20003/type'
 2019-11-03 15:07:57,759 - owif:53: readtemp 28.762079A20003 -> 19.25
 2019-11-03 15:07:59,255 - __main__:178: Sleeping 57.0769720078 seconds
 2019-11-03 15:07:59,356 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-03 15:07:59,464 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-03 15:07:59,624 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-03 15:08:34,258 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:08:35,584 - __main__:178: Sleeping 58.0143520832 seconds
+2019-11-03 15:08:35,660 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
