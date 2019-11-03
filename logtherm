@@ -623,3 +623,10 @@ CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--gi
 2019-11-03 15:49:25,337 - owif:53: readtemp 28.762079A20003 -> 19.25
 2019-11-03 15:49:26,572 - __main__:178: Sleeping 57.8989470005 seconds
 2019-11-03 15:49:26,616 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-03 15:49:26,669 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-03 15:49:26,742 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-03 15:50:37,781 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:50:37,788 - __main__:178: Sleeping 59.3190760612 seconds
+2019-11-03 15:51:12,565 - owif:53: readtemp 28.762079A20003 -> 23.9375
+2019-11-03 15:51:13,931 - __main__:178: Sleeping 57.2727451324 seconds
+2019-11-03 15:51:14,054 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
