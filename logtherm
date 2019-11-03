@@ -35,3 +35,6 @@ Traceback (most recent call last):
     raise exUnknownSensor(path)
 exUnknownSensor: '/28.762079A20003/temperature'
 root:45::RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+root:45::RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-m', 'n']]
+root:45::RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+root:45::RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
