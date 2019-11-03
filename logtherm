@@ -630,3 +630,644 @@ CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--gi
 2019-11-03 15:51:12,565 - owif:53: readtemp 28.762079A20003 -> 23.9375
 2019-11-03 15:51:13,931 - __main__:178: Sleeping 57.2727451324 seconds
 2019-11-03 15:51:14,054 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-03 15:51:14,191 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-03 15:51:14,326 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-03 17:27:54,634 - owif:53: readtemp 28.762079A20003 -> 23.0625
+2019-11-03 17:27:54,646 - __main__:178: Sleeping 59.2042849064 seconds
+2019-11-03 17:28:54,533 - owif:53: readtemp 28.762079A20003 -> 22.375
+2019-11-03 17:28:54,538 - __main__:178: Sleeping 59.3324830532 seconds
+2019-11-03 17:29:54,652 - owif:53: readtemp 28.762079A20003 -> 21.875
+2019-11-03 17:29:54,656 - __main__:178: Sleeping 59.2753829956 seconds
+2019-11-03 17:30:54,644 - owif:53: readtemp 28.762079A20003 -> 21.375
+2019-11-03 17:30:54,651 - __main__:178: Sleeping 59.3295688629 seconds
+2019-11-03 17:31:54,747 - owif:53: readtemp 28.762079A20003 -> 21.125
+2019-11-03 17:31:54,755 - __main__:178: Sleeping 59.2558059692 seconds
+2019-11-03 17:32:54,714 - owif:53: readtemp 28.762079A20003 -> 21
+2019-11-03 17:32:54,721 - __main__:178: Sleeping 59.2998130322 seconds
+2019-11-03 17:33:54,202 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 17:33:54,211 - __main__:132: Could not get temp
+2019-11-03 17:34:54,970 - owif:53: readtemp 28.762079A20003 -> 20.5
+2019-11-03 17:34:54,975 - __main__:178: Sleeping 59.3051681519 seconds
+2019-11-03 17:35:55,044 - owif:53: readtemp 28.762079A20003 -> 20.4375
+2019-11-03 17:35:55,051 - __main__:178: Sleeping 59.2899410725 seconds
+2019-11-03 17:36:55,088 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-03 17:36:55,093 - __main__:178: Sleeping 59.3097128868 seconds
+2019-11-03 17:37:55,214 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-03 17:37:55,227 - __main__:178: Sleeping 59.2135250568 seconds
+2019-11-03 17:38:54,690 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-03 17:38:54,694 - __main__:178: Sleeping 59.8061909676 seconds
+2019-11-03 17:39:55,283 - owif:53: readtemp 28.762079A20003 -> 20.25
+2019-11-03 17:39:55,288 - __main__:178: Sleeping 59.2743320465 seconds
+2019-11-03 17:40:55,284 - owif:53: readtemp 28.762079A20003 -> 20.25
+2019-11-03 17:40:55,291 - __main__:178: Sleeping 59.3322930336 seconds
+2019-11-03 17:41:54,822 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 17:41:54,825 - __main__:132: Could not get temp
+2019-11-03 17:42:55,582 - owif:53: readtemp 28.762079A20003 -> 20.125
+2019-11-03 17:42:55,589 - __main__:178: Sleeping 59.2412910461 seconds
+2019-11-03 17:43:55,594 - owif:53: readtemp 28.762079A20003 -> 20.0625
+2019-11-03 17:43:55,604 - __main__:178: Sleeping 59.2862520218 seconds
+2019-11-03 17:44:55,622 - owif:53: readtemp 28.762079A20003 -> 20.0625
+2019-11-03 17:44:55,626 - __main__:178: Sleeping 59.3242549896 seconds
+2019-11-03 17:45:55,714 - owif:53: readtemp 28.762079A20003 -> 20.0625
+2019-11-03 17:45:55,721 - __main__:178: Sleeping 59.2898221016 seconds
+2019-11-03 17:46:55,734 - owif:53: readtemp 28.762079A20003 -> 19.9375
+2019-11-03 17:46:55,741 - __main__:178: Sleeping 59.3294739723 seconds
+2019-11-03 17:47:55,972 - owif:53: readtemp 28.762079A20003 -> 19.9375
+2019-11-03 17:47:55,976 - __main__:178: Sleeping 59.1544208527 seconds
+2019-11-03 17:48:55,854 - owif:53: readtemp 28.762079A20003 -> 20
+2019-11-03 17:48:55,864 - __main__:178: Sleeping 59.3264000416 seconds
+2019-11-03 17:49:55,973 - owif:53: readtemp 28.762079A20003 -> 20
+2019-11-03 17:49:55,978 - __main__:178: Sleeping 59.2730119228 seconds
+2019-11-03 17:50:55,802 - owif:53: readtemp 28.762079A20003 -> 20
+2019-11-03 17:50:55,810 - __main__:178: Sleeping 59.50060606 seconds
+2019-11-03 17:51:56,074 - owif:53: readtemp 28.762079A20003 -> 19.9375
+2019-11-03 17:51:56,085 - __main__:178: Sleeping 59.2853908539 seconds
+2019-11-03 17:52:56,164 - owif:53: readtemp 28.762079A20003 -> 19.875
+2019-11-03 17:52:56,168 - __main__:178: Sleeping 59.26252985 seconds
+2019-11-03 17:53:56,162 - owif:53: readtemp 28.762079A20003 -> 19.9375
+2019-11-03 17:53:56,169 - __main__:178: Sleeping 59.2713999748 seconds
+2019-11-03 17:54:56,104 - owif:53: readtemp 28.762079A20003 -> 19.875
+2019-11-03 17:54:56,111 - __main__:178: Sleeping 59.3315629959 seconds
+2019-11-03 17:55:55,632 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 17:55:55,639 - __main__:132: Could not get temp
+2019-11-03 17:56:56,334 - owif:53: readtemp 28.762079A20003 -> 19.875
+2019-11-03 17:56:56,345 - __main__:178: Sleeping 59.3252739906 seconds
+2019-11-03 17:57:55,857 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 17:57:55,870 - __main__:132: Could not get temp
+2019-11-03 17:58:56,712 - owif:53: readtemp 28.762079A20003 -> 19.8125
+2019-11-03 17:58:56,716 - __main__:178: Sleeping 59.2142620087 seconds
+2019-11-03 17:59:56,644 - owif:53: readtemp 28.762079A20003 -> 19.875
+2019-11-03 17:59:56,651 - __main__:178: Sleeping 59.2897458076 seconds
+2019-11-03 18:00:56,653 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:00:57,839 - __main__:178: Sleeping 58.1461188793 seconds
+2019-11-03 18:01:56,792 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:01:56,801 - __main__:178: Sleeping 59.2437570095 seconds
+2019-11-03 18:02:56,774 - owif:53: readtemp 28.762079A20003 -> 19.8125
+2019-11-03 18:02:56,781 - __main__:178: Sleeping 59.3253979683 seconds
+2019-11-03 18:03:56,412 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 18:03:56,415 - __main__:132: Could not get temp
+2019-11-03 18:04:57,192 - owif:53: readtemp 28.762079A20003 -> 19.875
+2019-11-03 18:04:57,198 - __main__:178: Sleeping 59.2422320843 seconds
+2019-11-03 18:05:57,204 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:05:57,211 - __main__:178: Sleeping 59.2914919853 seconds
+2019-11-03 18:06:57,226 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:06:57,233 - __main__:178: Sleeping 59.3051121235 seconds
+2019-11-03 18:07:57,264 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:07:57,271 - __main__:178: Sleeping 59.2901370525 seconds
+2019-11-03 18:08:57,283 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:08:57,288 - __main__:178: Sleeping 59.3326661587 seconds
+2019-11-03 18:09:57,472 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:09:57,476 - __main__:178: Sleeping 59.2047300339 seconds
+2019-11-03 18:10:57,404 - owif:53: readtemp 28.762079A20003 -> 19.8125
+2019-11-03 18:10:57,412 - __main__:178: Sleeping 59.3282051086 seconds
+2019-11-03 18:11:57,515 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:11:57,524 - __main__:178: Sleeping 59.2670898438 seconds
+2019-11-03 18:12:57,514 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:12:57,523 - __main__:178: Sleeping 59.3283619881 seconds
+2019-11-03 18:13:57,017 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 18:13:57,021 - __main__:132: Could not get temp
+2019-11-03 18:14:57,832 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:14:57,837 - __main__:178: Sleeping 59.247177124 seconds
+2019-11-03 18:15:57,854 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:15:57,862 - __main__:178: Sleeping 59.2947428226 seconds
+2019-11-03 18:16:57,921 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:16:57,927 - __main__:178: Sleeping 59.2937879562 seconds
+2019-11-03 18:17:57,984 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:17:57,997 - __main__:178: Sleeping 59.2851819992 seconds
+2019-11-03 18:18:58,003 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:18:58,009 - __main__:178: Sleeping 59.3317329884 seconds
+2019-11-03 18:19:57,957 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:19:57,964 - __main__:178: Sleeping 59.4395480156 seconds
+2019-11-03 18:20:58,104 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:20:58,112 - __main__:178: Sleeping 59.3280239105 seconds
+2019-11-03 18:21:57,592 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 18:21:57,600 - __main__:132: Could not get temp
+2019-11-03 18:22:58,314 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:22:58,326 - __main__:178: Sleeping 59.3240869045 seconds
+2019-11-03 18:23:58,364 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:23:58,377 - __main__:178: Sleeping 59.2832028866 seconds
+2019-11-03 18:24:58,442 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:24:58,447 - __main__:178: Sleeping 59.2431650162 seconds
+2019-11-03 18:25:58,454 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:25:58,462 - __main__:178: Sleeping 59.2908558846 seconds
+2019-11-03 18:26:58,474 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:26:58,479 - __main__:178: Sleeping 59.3313918114 seconds
+2019-11-03 18:27:58,578 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:27:58,593 - __main__:178: Sleeping 59.2801949978 seconds
+2019-11-03 18:28:58,544 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:28:58,557 - __main__:178: Sleeping 59.3254990578 seconds
+2019-11-03 18:29:58,072 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 18:29:58,076 - __main__:132: Could not get temp
+2019-11-03 18:30:58,864 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:30:58,873 - __main__:178: Sleeping 59.2578551769 seconds
+2019-11-03 18:31:58,920 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:31:58,925 - __main__:178: Sleeping 59.2649929523 seconds
+2019-11-03 18:32:58,914 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:32:58,923 - __main__:178: Sleeping 59.3274619579 seconds
+2019-11-03 18:33:59,014 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:33:59,023 - __main__:178: Sleeping 59.2874519825 seconds
+2019-11-03 18:34:59,034 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:35:00,276 - __main__:178: Sleeping 58.094894886 seconds
+2019-11-03 18:35:59,204 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:35:59,213 - __main__:178: Sleeping 59.2178659439 seconds
+2019-11-03 18:36:59,104 - owif:53: readtemp 28.762079A20003 -> 20.5
+2019-11-03 18:36:59,112 - __main__:178: Sleeping 59.3280761242 seconds
+2019-11-03 18:37:59,194 - owif:53: readtemp 28.762079A20003 -> 20.875
+2019-11-03 18:37:59,203 - __main__:178: Sleeping 59.2878370285 seconds
+2019-11-03 18:38:59,224 - owif:53: readtemp 28.762079A20003 -> 20.75
+2019-11-03 18:38:59,233 - __main__:178: Sleeping 59.3221747875 seconds
+2019-11-03 18:39:59,334 - owif:53: readtemp 28.762079A20003 -> 20.625
+2019-11-03 18:39:59,347 - __main__:178: Sleeping 59.2715740204 seconds
+2019-11-03 18:40:59,414 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-03 18:40:59,422 - __main__:178: Sleeping 59.2594912052 seconds
+2019-11-03 18:41:59,994 - owif:53: readtemp 28.762079A20003 -> 20.1875
+2019-11-03 18:42:00,003 - __main__:178: Sleeping 58.6874639988 seconds
+2019-11-03 18:42:59,454 - owif:53: readtemp 28.762079A20003 -> 20.0625
+2019-11-03 18:42:59,462 - __main__:178: Sleeping 59.2904129028 seconds
+2019-11-03 18:43:58,928 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 18:43:58,935 - __main__:132: Could not get temp
+2019-11-03 18:44:59,604 - owif:53: readtemp 28.762079A20003 -> 19.875
+2019-11-03 18:44:59,613 - __main__:178: Sleeping 59.3273890018 seconds
+2019-11-03 18:45:59,744 - owif:53: readtemp 28.762079A20003 -> 19.8125
+2019-11-03 18:45:59,757 - __main__:178: Sleeping 59.2132689953 seconds
+2019-11-03 18:46:59,694 - owif:53: readtemp 28.762079A20003 -> 19.8125
+2019-11-03 18:46:59,703 - __main__:178: Sleeping 59.3308031559 seconds
+2019-11-03 18:47:59,814 - owif:53: readtemp 28.762079A20003 -> 19.8125
+2019-11-03 18:47:59,823 - __main__:178: Sleeping 59.2751879692 seconds
+2019-11-03 18:48:59,824 - owif:53: readtemp 28.762079A20003 -> 19.75
+2019-11-03 18:48:59,833 - __main__:178: Sleeping 59.3293130398 seconds
+2019-11-03 18:49:59,894 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:49:59,903 - __main__:178: Sleeping 59.2874128819 seconds
+2019-11-03 18:50:59,984 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:50:59,997 - __main__:178: Sleeping 59.2563078403 seconds
+2019-11-03 18:52:00,014 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:52:00,022 - __main__:178: Sleeping 59.2940690517 seconds
+2019-11-03 18:53:00,044 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:53:00,053 - __main__:178: Sleeping 59.3282999992 seconds
+2019-11-03 18:54:00,154 - owif:53: readtemp 28.762079A20003 -> 19.6875
+2019-11-03 18:54:00,163 - __main__:178: Sleeping 59.2777440548 seconds
+2019-11-03 18:55:00,174 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:55:00,183 - __main__:178: Sleeping 59.321611166 seconds
+2019-11-03 18:56:00,344 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 18:56:00,357 - __main__:178: Sleeping 59.2104821205 seconds
+2019-11-03 18:57:00,294 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 18:57:00,302 - __main__:178: Sleeping 59.3282001019 seconds
+2019-11-03 18:58:00,394 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 18:58:00,403 - __main__:178: Sleeping 59.2879009247 seconds
+2019-11-03 18:59:00,424 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 18:59:00,432 - __main__:178: Sleeping 59.3223609924 seconds
+2019-11-03 19:00:00,534 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 19:00:00,542 - __main__:178: Sleeping 59.2765088081 seconds
+2019-11-03 19:01:00,614 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 19:01:00,627 - __main__:178: Sleeping 59.2565140724 seconds
+2019-11-03 19:02:00,634 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 19:02:00,643 - __main__:178: Sleeping 59.2878708839 seconds
+2019-11-03 19:03:00,604 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:03:00,612 - __main__:178: Sleeping 59.3280580044 seconds
+2019-11-03 19:04:00,704 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:04:00,712 - __main__:178: Sleeping 59.2924098969 seconds
+2019-11-03 19:05:00,394 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:05:00,403 - __main__:178: Sleeping 59.6077129841 seconds
+2019-11-03 19:06:00,794 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:06:02,008 - __main__:178: Sleeping 58.0123319626 seconds
+2019-11-03 19:07:00,744 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 19:07:00,753 - __main__:178: Sleeping 59.3278448582 seconds
+2019-11-03 19:08:00,844 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:08:00,853 - __main__:178: Sleeping 59.2874281406 seconds
+2019-11-03 19:09:00,854 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:09:00,862 - __main__:178: Sleeping 59.3280410767 seconds
+2019-11-03 19:10:00,934 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 19:10:00,942 - __main__:178: Sleeping 59.2885231972 seconds
+2019-11-03 19:11:01,024 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:11:01,037 - __main__:178: Sleeping 59.2544660568 seconds
+2019-11-03 19:12:01,064 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:12:01,073 - __main__:178: Sleeping 59.2798268795 seconds
+2019-11-03 19:13:01,074 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:13:01,083 - __main__:178: Sleeping 59.3305840492 seconds
+2019-11-03 19:14:01,174 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:14:01,182 - __main__:178: Sleeping 59.2885911465 seconds
+2019-11-03 19:15:01,194 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:15:01,203 - __main__:178: Sleeping 59.3290450573 seconds
+2019-11-03 19:16:01,364 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 19:16:01,377 - __main__:178: Sleeping 59.2151010036 seconds
+2019-11-03 19:17:01,314 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:17:01,323 - __main__:178: Sleeping 59.3306260109 seconds
+2019-11-03 19:18:01,414 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:18:01,423 - __main__:178: Sleeping 59.2883570194 seconds
+2019-11-03 19:19:01,434 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:19:01,443 - __main__:178: Sleeping 59.3290131092 seconds
+2019-11-03 19:20:01,574 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:20:01,583 - __main__:178: Sleeping 59.2498259544 seconds
+2019-11-03 19:21:01,624 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:21:01,638 - __main__:178: Sleeping 59.255687952 seconds
+2019-11-03 19:22:01,654 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:22:01,662 - __main__:178: Sleeping 59.2882869244 seconds
+2019-11-03 19:23:01,674 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:23:01,683 - __main__:178: Sleeping 59.3289051056 seconds
+2019-11-03 19:24:01,775 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:24:01,783 - __main__:178: Sleeping 59.2895271778 seconds
+2019-11-03 19:25:01,794 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:25:01,803 - __main__:178: Sleeping 59.3304908276 seconds
+2019-11-03 19:26:01,964 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:26:01,977 - __main__:178: Sleeping 59.2134370804 seconds
+2019-11-03 19:27:01,914 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:27:01,923 - __main__:178: Sleeping 59.328756094 seconds
+2019-11-03 19:28:02,014 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:28:02,023 - __main__:178: Sleeping 59.2894070148 seconds
+2019-11-03 19:29:02,034 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:29:02,043 - __main__:178: Sleeping 59.3302640915 seconds
+2019-11-03 19:30:02,134 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:30:02,142 - __main__:178: Sleeping 59.2913141251 seconds
+2019-11-03 19:31:02,224 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:31:02,237 - __main__:178: Sleeping 59.2540609837 seconds
+2019-11-03 19:32:02,255 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:32:02,263 - __main__:178: Sleeping 59.2892999649 seconds
+2019-11-03 19:33:02,274 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:33:02,282 - __main__:178: Sleeping 59.330450058 seconds
+2019-11-03 19:34:02,414 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:34:02,422 - __main__:178: Sleeping 59.2514269352 seconds
+2019-11-03 19:35:02,394 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:35:02,403 - __main__:178: Sleeping 59.3287229538 seconds
+2019-11-03 19:36:02,564 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:36:03,791 - __main__:178: Sleeping 58.0007410049 seconds
+2019-11-03 19:37:02,532 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 19:37:02,543 - __main__:178: Sleeping 59.307446003 seconds
+2019-11-03 19:38:02,614 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:38:02,623 - __main__:178: Sleeping 59.2889618874 seconds
+2019-11-03 19:39:02,634 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:39:02,643 - __main__:178: Sleeping 59.3283839226 seconds
+2019-11-03 19:40:02,734 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:40:02,742 - __main__:178: Sleeping 59.2884540558 seconds
+2019-11-03 19:41:02,824 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:41:02,837 - __main__:178: Sleeping 59.254431963 seconds
+2019-11-03 19:42:02,854 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:42:02,862 - __main__:178: Sleeping 59.2900180817 seconds
+2019-11-03 19:43:02,874 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:43:02,883 - __main__:178: Sleeping 59.3282399178 seconds
+2019-11-03 19:44:02,974 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:44:02,982 - __main__:178: Sleeping 59.2892870903 seconds
+2019-11-03 19:45:02,994 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:45:03,003 - __main__:178: Sleeping 59.3297491074 seconds
+2019-11-03 19:46:03,164 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:46:03,177 - __main__:178: Sleeping 59.2159049511 seconds
+2019-11-03 19:47:03,114 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:47:03,123 - __main__:178: Sleeping 59.3279340267 seconds
+2019-11-03 19:48:03,214 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:48:03,223 - __main__:178: Sleeping 59.2887299061 seconds
+2019-11-03 19:49:03,234 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:49:03,243 - __main__:178: Sleeping 59.3295369148 seconds
+2019-11-03 19:50:03,334 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:50:03,343 - __main__:178: Sleeping 59.2899558544 seconds
+2019-11-03 19:51:03,424 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:51:03,437 - __main__:178: Sleeping 59.2540998459 seconds
+2019-11-03 19:52:03,454 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:52:03,463 - __main__:178: Sleeping 59.2887759209 seconds
+2019-11-03 19:53:03,474 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:53:03,483 - __main__:178: Sleeping 59.3295190334 seconds
+2019-11-03 19:54:03,574 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:54:03,582 - __main__:178: Sleeping 59.2905650139 seconds
+2019-11-03 19:55:03,594 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:55:03,603 - __main__:178: Sleeping 59.3311550617 seconds
+2019-11-03 19:56:03,544 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:56:03,557 - __main__:178: Sleeping 59.4334468842 seconds
+2019-11-03 19:57:03,714 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:57:03,723 - __main__:178: Sleeping 59.3291068077 seconds
+2019-11-03 19:58:03,814 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 19:58:03,822 - __main__:178: Sleeping 59.290019989 seconds
+2019-11-03 19:59:03,834 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 19:59:03,843 - __main__:178: Sleeping 59.3306040764 seconds
+2019-11-03 20:00:03,934 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:00:03,943 - __main__:178: Sleeping 59.288533926 seconds
+2019-11-03 20:01:04,024 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:01:04,037 - __main__:178: Sleeping 59.2545478344 seconds
+2019-11-03 20:02:04,054 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:02:04,063 - __main__:178: Sleeping 59.2901711464 seconds
+2019-11-03 20:03:04,074 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:03:04,083 - __main__:178: Sleeping 59.3308990002 seconds
+2019-11-03 20:04:04,175 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:04:04,183 - __main__:178: Sleeping 59.288228035 seconds
+2019-11-03 20:05:04,194 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:05:04,203 - __main__:178: Sleeping 59.3291170597 seconds
+2019-11-03 20:06:04,364 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:06:05,567 - __main__:178: Sleeping 58.0256919861 seconds
+2019-11-03 20:07:04,314 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:07:04,323 - __main__:178: Sleeping 59.3306071758 seconds
+2019-11-03 20:08:04,414 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:08:04,422 - __main__:178: Sleeping 59.2884271145 seconds
+2019-11-03 20:09:04,434 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:09:04,443 - __main__:178: Sleeping 59.3289949894 seconds
+2019-11-03 20:10:04,534 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:10:04,543 - __main__:178: Sleeping 59.2893550396 seconds
+2019-11-03 20:11:04,634 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:11:04,647 - __main__:178: Sleeping 59.2437748909 seconds
+2019-11-03 20:12:04,654 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:12:04,663 - __main__:178: Sleeping 59.2879991531 seconds
+2019-11-03 20:13:04,674 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:13:04,683 - __main__:178: Sleeping 59.328949213 seconds
+2019-11-03 20:14:04,774 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:14:04,783 - __main__:178: Sleeping 59.2898080349 seconds
+2019-11-03 20:15:04,794 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:15:04,803 - __main__:178: Sleeping 59.3305621147 seconds
+2019-11-03 20:16:04,964 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:16:04,977 - __main__:178: Sleeping 59.2133848667 seconds
+2019-11-03 20:17:04,914 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:17:04,923 - __main__:178: Sleeping 59.3279578686 seconds
+2019-11-03 20:18:05,024 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:18:05,032 - __main__:178: Sleeping 59.2789409161 seconds
+2019-11-03 20:19:05,034 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:19:05,043 - __main__:178: Sleeping 59.3296089172 seconds
+2019-11-03 20:20:05,134 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:20:05,143 - __main__:178: Sleeping 59.29022789 seconds
+2019-11-03 20:21:05,224 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:21:05,237 - __main__:178: Sleeping 59.2540261745 seconds
+2019-11-03 20:22:05,254 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 20:22:05,262 - __main__:178: Sleeping 59.2896201611 seconds
+2019-11-03 20:23:05,274 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:23:05,283 - __main__:178: Sleeping 59.330188036 seconds
+2019-11-03 20:24:05,374 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:24:05,382 - __main__:178: Sleeping 59.2912449837 seconds
+2019-11-03 20:25:05,434 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:25:05,443 - __main__:178: Sleeping 59.288079977 seconds
+2019-11-03 20:26:05,564 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:26:05,572 - __main__:178: Sleeping 59.2194340229 seconds
+2019-11-03 20:27:05,514 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 20:27:05,523 - __main__:178: Sleeping 59.3301210403 seconds
+2019-11-03 20:28:05,614 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:28:05,623 - __main__:178: Sleeping 59.2908430099 seconds
+2019-11-03 20:29:05,634 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:29:05,643 - __main__:178: Sleeping 59.3279619217 seconds
+2019-11-03 20:30:05,734 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:30:05,743 - __main__:178: Sleeping 59.2883448601 seconds
+2019-11-03 20:31:05,824 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:31:05,837 - __main__:178: Sleeping 59.2549371719 seconds
+2019-11-03 20:32:05,854 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:32:05,862 - __main__:178: Sleeping 59.2905981541 seconds
+2019-11-03 20:33:05,874 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:33:05,883 - __main__:178: Sleeping 59.3281340599 seconds
+2019-11-03 20:34:05,974 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:34:05,982 - __main__:178: Sleeping 59.289178133 seconds
+2019-11-03 20:35:05,994 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 20:35:06,003 - __main__:178: Sleeping 59.3298549652 seconds
+2019-11-03 20:36:06,164 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 20:36:07,407 - __main__:178: Sleeping 57.9858160019 seconds
+2019-11-03 20:37:06,114 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:37:06,123 - __main__:178: Sleeping 59.3280539513 seconds
+2019-11-03 20:38:06,214 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:38:06,222 - __main__:178: Sleeping 59.2890410423 seconds
+2019-11-03 20:39:06,234 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 20:39:06,243 - __main__:178: Sleeping 59.3296802044 seconds
+2019-11-03 20:40:06,044 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 20:40:06,052 - __main__:178: Sleeping 59.580739975 seconds
+2019-11-03 20:41:06,424 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 20:41:06,437 - __main__:178: Sleeping 59.2533400059 seconds
+2019-11-03 20:42:06,454 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 20:42:06,463 - __main__:178: Sleeping 59.2888388634 seconds
+2019-11-03 20:43:06,474 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 20:43:06,483 - __main__:178: Sleeping 59.3295600414 seconds
+2019-11-03 20:44:06,574 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 20:44:06,583 - __main__:178: Sleeping 59.2900388241 seconds
+2019-11-03 20:45:06,594 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 20:45:06,603 - __main__:178: Sleeping 59.3312590122 seconds
+2019-11-03 20:46:06,764 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 20:46:06,777 - __main__:178: Sleeping 59.2140340805 seconds
+2019-11-03 20:47:06,474 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 20:47:06,483 - __main__:178: Sleeping 59.5694761276 seconds
+2019-11-03 20:48:06,814 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 20:48:06,822 - __main__:178: Sleeping 59.2904348373 seconds
+2019-11-03 20:49:06,834 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 20:49:06,843 - __main__:178: Sleeping 59.3310010433 seconds
+2019-11-03 20:50:06,934 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 20:50:06,942 - __main__:178: Sleeping 59.2886781693 seconds
+2019-11-03 20:51:07,024 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 20:51:07,037 - __main__:178: Sleeping 59.2546169758 seconds
+2019-11-03 20:52:07,054 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 20:52:07,063 - __main__:178: Sleeping 59.2900059223 seconds
+2019-11-03 20:53:07,074 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 20:53:07,083 - __main__:178: Sleeping 59.3308770657 seconds
+2019-11-03 20:54:07,174 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 20:54:07,182 - __main__:178: Sleeping 59.2885649204 seconds
+2019-11-03 20:55:07,194 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:55:07,203 - __main__:178: Sleeping 59.3290970325 seconds
+2019-11-03 20:56:07,364 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 20:56:07,377 - __main__:178: Sleeping 59.2160899639 seconds
+2019-11-03 20:57:07,314 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 20:57:07,323 - __main__:178: Sleeping 59.3306891918 seconds
+2019-11-03 20:58:07,414 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 20:58:07,422 - __main__:178: Sleeping 59.2883858681 seconds
+2019-11-03 20:59:07,434 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 20:59:07,443 - __main__:178: Sleeping 59.3289821148 seconds
+2019-11-03 21:00:07,534 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:00:07,543 - __main__:178: Sleeping 59.2898981571 seconds
+2019-11-03 21:01:07,624 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 21:01:07,637 - __main__:178: Sleeping 59.2562770844 seconds
+2019-11-03 21:02:07,644 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 21:02:07,653 - __main__:178: Sleeping 59.2981979847 seconds
+2019-11-03 21:03:07,674 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 21:03:07,683 - __main__:178: Sleeping 59.3284270763 seconds
+2019-11-03 21:04:07,774 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 21:04:07,782 - __main__:178: Sleeping 59.2894730568 seconds
+2019-11-03 21:05:07,794 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 21:05:07,803 - __main__:178: Sleeping 59.3300619125 seconds
+2019-11-03 21:06:07,964 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 21:06:09,177 - __main__:178: Sleeping 58.0140209198 seconds
+2019-11-03 21:07:07,914 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:07:07,923 - __main__:178: Sleeping 59.328592062 seconds
+2019-11-03 21:08:08,015 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:08:08,023 - __main__:178: Sleeping 59.2924180031 seconds
+2019-11-03 21:09:08,084 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:09:08,092 - __main__:178: Sleeping 59.2835450172 seconds
+2019-11-03 21:10:08,144 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:10:08,152 - __main__:178: Sleeping 59.2843739986 seconds
+2019-11-03 21:11:08,224 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:11:08,237 - __main__:178: Sleeping 59.2547490597 seconds
+2019-11-03 21:12:08,264 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 21:12:08,272 - __main__:178: Sleeping 59.279599905 seconds
+2019-11-03 21:13:08,274 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:13:08,283 - __main__:178: Sleeping 59.3297040462 seconds
+2019-11-03 21:14:08,374 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 21:14:08,383 - __main__:178: Sleeping 59.2906029224 seconds
+2019-11-03 21:15:08,394 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 21:15:08,403 - __main__:178: Sleeping 59.3285329342 seconds
+2019-11-03 21:16:08,604 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:16:08,617 - __main__:178: Sleeping 59.1746959686 seconds
+2019-11-03 21:17:08,514 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:17:08,523 - __main__:178: Sleeping 59.3300590515 seconds
+2019-11-03 21:18:08,614 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 21:18:08,622 - __main__:178: Sleeping 59.2912809849 seconds
+2019-11-03 21:19:08,634 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-03 21:19:08,643 - __main__:178: Sleeping 59.3283360004 seconds
+2019-11-03 21:20:08,734 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 21:20:08,742 - __main__:178: Sleeping 59.2884020805 seconds
+2019-11-03 21:21:08,824 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:21:08,837 - __main__:178: Sleeping 59.2543389797 seconds
+2019-11-03 21:22:08,854 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:22:08,862 - __main__:178: Sleeping 59.2899858952 seconds
+2019-11-03 21:23:08,874 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:23:08,883 - __main__:178: Sleeping 59.3278198242 seconds
+2019-11-03 21:24:08,974 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:24:08,983 - __main__:178: Sleeping 59.2888550758 seconds
+2019-11-03 21:25:08,994 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:25:09,003 - __main__:178: Sleeping 59.3298420906 seconds
+2019-11-03 21:26:09,164 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:26:09,177 - __main__:178: Sleeping 59.2160499096 seconds
+2019-11-03 21:27:09,114 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:27:09,123 - __main__:178: Sleeping 59.3280777931 seconds
+2019-11-03 21:28:09,214 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 21:28:09,223 - __main__:178: Sleeping 59.2888870239 seconds
+2019-11-03 21:29:09,234 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:29:09,243 - __main__:178: Sleeping 59.3295609951 seconds
+2019-11-03 21:30:09,334 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:30:09,342 - __main__:178: Sleeping 59.2905240059 seconds
+2019-11-03 21:31:09,104 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:31:09,117 - __main__:178: Sleeping 59.5734581947 seconds
+2019-11-03 21:32:09,454 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:32:09,463 - __main__:178: Sleeping 59.2886919975 seconds
+2019-11-03 21:33:09,474 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 21:33:09,483 - __main__:178: Sleeping 59.3295660019 seconds
+2019-11-03 21:34:09,574 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:34:09,582 - __main__:178: Sleeping 59.2905731201 seconds
+2019-11-03 21:35:09,594 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:35:09,603 - __main__:178: Sleeping 59.3309488297 seconds
+2019-11-03 21:36:09,764 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:36:10,997 - __main__:178: Sleeping 57.9943361282 seconds
+2019-11-03 21:37:09,714 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:37:09,723 - __main__:178: Sleeping 59.3289458752 seconds
+2019-11-03 21:38:09,634 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:38:09,642 - __main__:178: Sleeping 59.4685018063 seconds
+2019-11-03 21:39:09,834 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:39:09,843 - __main__:178: Sleeping 59.3291318417 seconds
+2019-11-03 21:40:09,935 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:40:09,943 - __main__:178: Sleeping 59.2882199287 seconds
+2019-11-03 21:41:10,024 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:41:10,037 - __main__:178: Sleeping 59.2552158833 seconds
+2019-11-03 21:42:10,054 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:42:10,063 - __main__:178: Sleeping 59.2896671295 seconds
+2019-11-03 21:43:10,074 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:43:10,083 - __main__:178: Sleeping 59.330737114 seconds
+2019-11-03 21:44:10,174 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:44:10,182 - __main__:178: Sleeping 59.2885050774 seconds
+2019-11-03 21:45:10,194 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:45:10,203 - __main__:178: Sleeping 59.3291041851 seconds
+2019-11-03 21:46:10,364 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:46:10,377 - __main__:178: Sleeping 59.2160019875 seconds
+2019-11-03 21:47:10,314 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:47:10,323 - __main__:178: Sleeping 59.3301970959 seconds
+2019-11-03 21:48:10,414 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-03 21:48:10,422 - __main__:178: Sleeping 59.2884380817 seconds
+2019-11-03 21:49:10,434 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:49:10,443 - __main__:178: Sleeping 59.3287541866 seconds
+2019-11-03 21:50:10,534 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-03 21:50:10,542 - __main__:178: Sleeping 59.290058136 seconds
+2019-11-03 21:51:10,624 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-03 21:51:10,637 - __main__:178: Sleeping 59.2559871674 seconds
+2019-11-03 21:52:10,654 - owif:53: readtemp 28.762079A20003 -> 19.5
+2019-11-03 21:52:10,666 - __main__:178: Sleeping 59.2850301266 seconds
+2019-11-03 21:52:10,723 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
