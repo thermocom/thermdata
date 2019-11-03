@@ -542,3 +542,22 @@ exUnknownSensor: '/28.762079A20003/type'
 2019-11-03 15:37:30,359 - owif:53: readtemp 28.762079A20003 -> 19.25
 2019-11-03 15:37:31,589 - __main__:178: Sleeping 57.0193750858 seconds
 2019-11-03 15:37:31,630 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-03 15:37:31,674 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-03 15:37:31,741 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-03 15:38:07,504 - gitif:25: git command failed: ['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/gitif.py", line 23, in fetch_setpoint
+    subprocess.check_call(cmd)
+  File "/usr/lib/python2.7/subprocess.py", line 190, in check_call
+    raise CalledProcessError(retcode, cmd)
+CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']' returned non-zero exit status 1
+2019-11-03 15:38:07,837 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:38:08,011 - gitif:25: git command failed: ['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/gitif.py", line 23, in fetch_setpoint
+    subprocess.check_call(cmd)
+  File "/usr/lib/python2.7/subprocess.py", line 190, in check_call
+    raise CalledProcessError(retcode, cmd)
+CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']' returned non-zero exit status 1
+2019-11-03 15:38:08,022 - __main__:178: Sleeping 59.5078010559 seconds
+2019-11-03 15:38:08,068 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
