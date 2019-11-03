@@ -390,3 +390,114 @@ exUnknownSensor: '/28.762079A20003/type'
 2019-11-03 15:08:34,258 - owif:53: readtemp 28.762079A20003 -> 19.1875
 2019-11-03 15:08:35,584 - __main__:178: Sleeping 58.0143520832 seconds
 2019-11-03 15:08:35,660 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-03 15:08:36,156 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-03 15:08:36,318 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-03 15:09:33,949 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:09:33,958 - __main__:178: Sleeping 59.7017629147 seconds
+2019-11-03 15:10:33,881 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 15:10:33,889 - __main__:132: Could not get temp
+2019-11-03 15:11:34,619 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:11:34,627 - __main__:178: Sleeping 59.3240458965 seconds
+2019-11-03 15:12:34,136 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 15:12:34,141 - __main__:132: Could not get temp
+2019-11-03 15:13:34,899 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:13:34,907 - __main__:178: Sleeping 59.2580358982 seconds
+2019-11-03 15:14:34,386 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 15:14:34,392 - __main__:132: Could not get temp
+2019-11-03 15:15:35,119 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:15:35,127 - __main__:178: Sleeping 59.3279008865 seconds
+2019-11-03 15:16:34,608 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 15:16:34,612 - __main__:132: Could not get temp
+2019-11-03 15:17:35,339 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:17:35,352 - __main__:178: Sleeping 59.324051857 seconds
+2019-11-03 15:18:35,503 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:18:35,509 - __main__:178: Sleeping 59.2059571743 seconds
+2019-11-03 15:19:35,438 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:19:35,443 - __main__:178: Sleeping 59.3314788342 seconds
+2019-11-03 15:20:35,526 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:20:35,535 - __main__:178: Sleeping 59.2602190971 seconds
+2019-11-03 15:21:35,518 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:21:35,523 - __main__:178: Sleeping 59.3315210342 seconds
+2019-11-03 15:22:35,619 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:22:35,637 - __main__:178: Sleeping 59.278192997 seconds
+2019-11-03 15:23:35,735 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:23:35,742 - __main__:178: Sleeping 59.2333960533 seconds
+2019-11-03 15:24:35,699 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:24:35,707 - __main__:178: Sleeping 59.2872788906 seconds
+Sun Nov  3 15:25:23 GMT 2019
+Rebooting because /home/dockes/thermdata/2019-11-03-templog is not updating
+2019-11-03 15:25:35,778 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:25:35,784 - __main__:178: Sleeping 59.273938179 seconds
+2019-11-03 15:26:35,789 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:26:35,797 - __main__:178: Sleeping 59.2925739288 seconds
+2019-11-03 15:27:35,756 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:27:35,775 - __main__:178: Sleeping 59.3785378933 seconds
+2019-11-03 15:28:35,989 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:28:35,997 - __main__:178: Sleeping 59.2174470425 seconds
+2019-11-03 15:29:35,956 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:29:35,962 - __main__:178: Sleeping 59.315789938 seconds
+2019-11-03 15:30:37,633 - gitif:25: git command failed: ['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/gitif.py", line 23, in fetch_setpoint
+    subprocess.check_call(cmd)
+  File "/usr/lib/python2.7/subprocess.py", line 190, in check_call
+    raise CalledProcessError(retcode, cmd)
+CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']' returned non-zero exit status 1
+2019-11-03 15:30:38,508 - owif:53: readtemp 28.762079A20003 -> 19.25
+2019-11-03 15:30:38,704 - gitif:25: git command failed: ['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/gitif.py", line 23, in fetch_setpoint
+    subprocess.check_call(cmd)
+  File "/usr/lib/python2.7/subprocess.py", line 190, in check_call
+    raise CalledProcessError(retcode, cmd)
+CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']' returned non-zero exit status 1
+2019-11-03 15:30:38,714 - __main__:178: Sleeping 58.956610918 seconds
+2019-11-03 15:30:38,759 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
