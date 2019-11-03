@@ -501,3 +501,39 @@ Traceback (most recent call last):
 CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']' returned non-zero exit status 1
 2019-11-03 15:30:38,714 - __main__:178: Sleeping 58.956610918 seconds
 2019-11-03 15:30:38,759 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-03 15:30:38,808 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-03 15:30:38,888 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-03 15:30:39,022 - gitif:49: git command failed: ['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/gitif.py", line 46, in _try_run_git
+    subprocess.check_call(cmd)
+  File "/usr/lib/python2.7/subprocess.py", line 190, in check_call
+    raise CalledProcessError(retcode, cmd)
+CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']' returned non-zero exit status 128
+2019-11-03 15:31:50,924 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:31:50,930 - __main__:178: Sleeping 59.3295030594 seconds
+2019-11-03 15:32:51,101 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:32:51,105 - __main__:178: Sleeping 59.2144370079 seconds
+2019-11-03 15:33:51,043 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:33:51,050 - __main__:178: Sleeping 59.3309490681 seconds
+2019-11-03 15:34:50,556 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-03 15:34:50,565 - __main__:132: Could not get temp
+2019-11-03 15:35:52,043 - owif:53: readtemp 28.762079A20003 -> 19.3125
+2019-11-03 15:35:52,047 - __main__:178: Sleeping 58.5824279785 seconds
+2019-11-03 15:36:51,343 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:36:51,353 - __main__:178: Sleeping 59.2869739532 seconds
+2019-11-03 15:37:11,871 - owif:53: readtemp 28.762079A20003 -> 19.1875
+2019-11-03 15:37:13,749 - __main__:178: Sleeping 57.4290440083 seconds
+2019-11-03 15:37:13,790 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
