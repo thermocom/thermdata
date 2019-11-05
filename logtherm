@@ -6061,3 +6061,8 @@ Traceback (most recent call last):
 ValueError: could not convert string to float: 
 2019-11-05 13:22:45,148 - __main__:178: Sleeping 58.1306898594 seconds
 2019-11-05 13:22:45,191 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-05 13:22:45,320 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-05 13:22:45,391 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-05 13:23:32,015 - owif:53: readtemp 28.762079A20003 -> 19.5625
+2019-11-05 13:23:33,214 - __main__:178: Sleeping 58.0883369446 seconds
+2019-11-05 13:23:33,258 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
