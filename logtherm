@@ -6044,3 +6044,20 @@ exUnknownSensor: '/28.762079A20003/type'
 2019-11-05 13:21:27,504 - owif:53: readtemp 28.762079A20003 -> 19.6875
 2019-11-05 13:21:28,703 - __main__:178: Sleeping 58.1338119507 seconds
 2019-11-05 13:21:28,746 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-05 13:21:28,874 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-05 13:21:28,945 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-05 13:22:27,614 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-05 13:22:27,624 - __main__:178: Sleeping 59.2744879723 seconds
+2019-11-05 13:22:43,274 - gitif:39: Bad contents in tempfile
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/gitif.py", line 35, in fetch_setpoint
+    value = float(temp)
+ValueError: could not convert string to float: 
+2019-11-05 13:22:43,944 - owif:53: readtemp 28.762079A20003 -> 19.625
+2019-11-05 13:22:45,139 - gitif:39: Bad contents in tempfile
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/gitif.py", line 35, in fetch_setpoint
+    value = float(temp)
+ValueError: could not convert string to float: 
+2019-11-05 13:22:45,148 - __main__:178: Sleeping 58.1306898594 seconds
+2019-11-05 13:22:45,191 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
