@@ -6085,3 +6085,8 @@ Traceback (most recent call last):
 CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'pull', '-q']' returned non-zero exit status 1
 2019-11-05 13:24:52,012 - __main__:178: Sleeping 59.3068568707 seconds
 2019-11-05 13:24:52,058 - root:45: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-05 13:58:46,950 - owif:53: readtemp 28.762079A20003 -> 19.125
+2019-11-05 14:00:14,820 - owif:53: readtemp 28.762079A20003 -> 19.375
+2019-11-05 14:01:10,430 - owif:53: readtemp 28.762079A20003 -> 19.4375
+2019-11-05 14:01:11,971 - __main__:201: Sleeping 57.79368186 seconds
+2019-11-05 14:01:12,076 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
