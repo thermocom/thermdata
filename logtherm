@@ -10957,3 +10957,11 @@ ValueError: could not convert string to float: temp
 2019-11-06 11:02:07,651 - PID:103: PID: dt 0.003289 error -0.06 integral  -0.000003
 2019-11-06 11:02:07,662 - __main__:222: Sleeping 57.450977087 seconds
 2019-11-06 11:02:07,704 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-06 11:02:07,971 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-06 11:02:08,116 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-06 11:02:33,057 - __main__:166: fastloopcount 0 heatminutes 0
+2019-11-06 11:02:33,794 - owif:53: readtemp 28.762079A20003 -> 21.625
+2019-11-06 11:02:35,492 - __main__:187: PID tunings: Kp 100.00 Ki 0.03 Kd 0.00
+2019-11-06 11:02:35,495 - PID:103: PID: dt 0.003151 error -0.12 integral  -0.000011
+2019-11-06 11:02:35,506 - __main__:222: Sleeping 57.550675869 seconds
+2019-11-06 11:02:35,596 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
