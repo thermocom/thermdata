@@ -10336,3 +10336,93 @@ CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--gi
 2019-11-06 07:53:39,754 - PID:103: PID: error 0.19 integral  0.000307
 2019-11-06 07:53:39,764 - __main__:210: Sleeping 58.0979039669 seconds
 2019-11-06 07:53:39,807 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-06 07:53:39,993 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-06 07:53:40,108 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-06 07:54:37,923 - __main__:154: fastloopcount 1 heatminutes 2
+2019-11-06 07:54:38,589 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:54:38,599 - __main__:210: Sleeping 59.3240160942 seconds
+2019-11-06 07:55:37,986 - __main__:154: fastloopcount 0 heatminutes 2
+2019-11-06 07:55:38,739 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:55:39,981 - PID:81: PID: dt 120.233126
+2019-11-06 07:55:39,984 - PID:103: PID: error 0.19 integral  11.272162
+2019-11-06 07:55:39,991 - __main__:210: Sleeping 57.994038105 seconds
+2019-11-06 07:56:37,996 - __main__:154: fastloopcount 1 heatminutes 2
+2019-11-06 07:56:38,669 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:56:38,679 - __main__:210: Sleeping 59.3167090416 seconds
+2019-11-06 07:57:38,056 - __main__:154: fastloopcount 0 heatminutes 2
+2019-11-06 07:57:38,313 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-06 07:57:38,328 - __main__:123: Could not get temp
+2019-11-06 07:58:38,396 - __main__:154: fastloopcount 0 heatminutes 2
+2019-11-06 07:58:39,191 - owif:53: readtemp 28.762079A20003 -> 20.4375
+2019-11-06 07:58:40,982 - PID:81: PID: dt 181.001005
+2019-11-06 07:58:40,985 - PID:103: PID: error 0.06 integral  16.928444
+2019-11-06 07:58:40,992 - __main__:210: Sleeping 57.403927803 seconds
+2019-11-06 07:59:38,457 - __main__:154: fastloopcount 1 heatminutes 2
+2019-11-06 07:59:39,720 - owif:53: readtemp 28.762079A20003 -> 20.5625
+2019-11-06 07:59:39,730 - __main__:210: Sleeping 58.7274169922 seconds
+2019-11-06 08:00:38,496 - __main__:154: fastloopcount 0 heatminutes 2
+2019-11-06 08:00:39,199 - owif:53: readtemp 28.762079A20003 -> 20.5
+2019-11-06 08:00:41,032 - PID:81: PID: dt 120.050037
+2019-11-06 08:00:41,035 - PID:103: PID: error 0.00 integral  16.928444
+2019-11-06 08:00:41,042 - __main__:210: Sleeping 57.4537751675 seconds
+2019-11-06 08:01:38,557 - __main__:154: fastloopcount 1 heatminutes 2
+2019-11-06 08:01:39,257 - owif:53: readtemp 28.762079A20003 -> 20.5
+2019-11-06 08:01:39,265 - __main__:210: Sleeping 59.2934830189 seconds
+2019-11-06 08:02:38,622 - __main__:154: fastloopcount 0 heatminutes 2
+2019-11-06 08:02:39,339 - owif:53: readtemp 28.762079A20003 -> 20.5625
+2019-11-06 08:02:41,133 - PID:81: PID: dt 120.101313
+2019-11-06 08:02:41,136 - PID:103: PID: error -0.06 integral  13.175278
+2019-11-06 08:02:41,143 - __main__:210: Sleeping 57.4788269997 seconds
+2019-11-06 08:03:38,679 - __main__:154: fastloopcount 1 heatminutes 2
+2019-11-06 08:03:39,469 - owif:53: readtemp 28.762079A20003 -> 20.5625
+2019-11-06 08:03:39,475 - __main__:210: Sleeping 59.2040090561 seconds
+2019-11-06 08:04:38,742 - __main__:154: fastloopcount 0 heatminutes 2
+2019-11-06 08:04:39,459 - owif:53: readtemp 28.762079A20003 -> 20.5625
+2019-11-06 08:04:41,164 - PID:81: PID: dt 120.031084
+2019-11-06 08:04:41,167 - PID:103: PID: error -0.06 integral  9.424306
+2019-11-06 08:04:41,174 - __main__:210: Sleeping 57.5683670044 seconds
+2019-11-06 08:05:38,796 - __main__:154: fastloopcount 1 heatminutes 2
+2019-11-06 08:05:39,481 - owif:53: readtemp 28.762079A20003 -> 20.625
+2019-11-06 08:05:39,488 - __main__:210: Sleeping 59.307808876 seconds
+2019-11-06 08:06:38,858 - __main__:154: fastloopcount 0 heatminutes 2
+2019-11-06 08:06:39,579 - owif:53: readtemp 28.762079A20003 -> 20.6875
+2019-11-06 08:06:41,288 - PID:81: PID: dt 120.124302
+2019-11-06 08:06:41,291 - PID:103: PID: error -0.19 integral  -1.837347
+2019-11-06 08:06:41,298 - __main__:210: Sleeping 57.5599811077 seconds
+2019-11-06 08:07:38,915 - __main__:154: fastloopcount 1 heatminutes 2
+2019-11-06 08:07:39,607 - owif:53: readtemp 28.762079A20003 -> 20.6875
+2019-11-06 08:07:39,613 - __main__:210: Sleeping 59.3026540279 seconds
+2019-11-06 08:08:38,979 - __main__:154: fastloopcount 0 heatminutes 2
+2019-11-06 08:08:39,749 - owif:53: readtemp 28.762079A20003 -> 20.6875
+2019-11-06 08:08:41,443 - PID:81: PID: dt 120.155142
+2019-11-06 08:08:41,447 - PID:103: PID: error -0.19 integral  -11.264545
+2019-11-06 08:08:41,454 - __main__:210: Sleeping 57.5257780552 seconds
+2019-11-06 08:09:39,036 - __main__:154: fastloopcount 1 heatminutes 2
+2019-11-06 08:09:39,759 - owif:53: readtemp 28.762079A20003 -> 20.75
+2019-11-06 08:09:39,775 - __main__:210: Sleeping 59.2609078884 seconds
+2019-11-06 08:10:39,100 - __main__:154: fastloopcount 0 heatminutes 2
+2019-11-06 08:10:39,799 - owif:53: readtemp 28.762079A20003 -> 20.75
+2019-11-06 08:10:41,487 - PID:81: PID: dt 120.043033
+2019-11-06 08:10:41,491 - PID:103: PID: error -0.25 integral  -15.005379
+2019-11-06 08:10:41,497 - __main__:210: Sleeping 57.6027870178 seconds
+2019-11-06 08:11:39,161 - __main__:154: fastloopcount 1 heatminutes 2
+2019-11-06 08:11:39,873 - owif:53: readtemp 28.762079A20003 -> 20.75
+2019-11-06 08:11:39,879 - __main__:210: Sleeping 59.2816309929 seconds
+2019-11-06 08:12:31,037 - __main__:154: fastloopcount 0 heatminutes 0
+2019-11-06 08:12:31,709 - owif:53: readtemp 28.762079A20003 -> 20.875
+2019-11-06 08:12:33,048 - __main__:175: PID tunings: Kp 50.00 Ki 0.01 Kd 0.00
+2019-11-06 08:12:33,057 - PID:103: PID: dt 0.008932 error -0.38 integral  -0.000047
+2019-11-06 08:12:33,076 - __main__:210: Sleeping 57.9604530334 seconds
+2019-11-06 08:12:33,156 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
