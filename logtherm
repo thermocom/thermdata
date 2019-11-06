@@ -10311,3 +10311,19 @@ exUnknownSensor: '/28.762079A20003/type'
 2019-11-06 07:45:44,261 - __main__:175: PID tunings: Kp 50.00 Ki 0.50 Kd 0.00
 2019-11-06 07:45:44,272 - __main__:210: Sleeping 58.0309648514 seconds
 2019-11-06 07:45:44,314 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-06 07:45:44,499 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-06 07:45:44,571 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-06 07:45:48,097 - gitif:48: git command failed: ['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/gitif.py", line 45, in _try_run_git
+    subprocess.check_call(cmd)
+  File "/usr/lib/python2.7/subprocess.py", line 190, in check_call
+    raise CalledProcessError(retcode, cmd)
+CalledProcessError: Command '['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']' returned non-zero exit status -2
+2019-11-06 07:52:58,701 - __main__:154: fastloopcount 0 heatminutes 0
+2019-11-06 07:53:00,097 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:53:02,020 - __main__:175: PID tunings: Kp 50.00 Ki 0.50 Kd 0.00
+2019-11-06 07:53:02,023 - PID:81: PID: dt 0.003161
+2019-11-06 07:53:02,029 - PID:103: PID: error 0.12 integral  0.000198
+2019-11-06 07:53:02,040 - __main__:210: Sleeping 56.6609959602 seconds
+2019-11-06 07:53:02,083 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
