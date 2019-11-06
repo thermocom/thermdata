@@ -10426,3 +10426,111 @@ exUnknownSensor: '/28.762079A20003/type'
 2019-11-06 08:12:33,057 - PID:103: PID: dt 0.008932 error -0.38 integral  -0.000047
 2019-11-06 08:12:33,076 - __main__:210: Sleeping 57.9604530334 seconds
 2019-11-06 08:12:33,156 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-06 08:12:33,593 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-06 08:12:33,722 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-06 08:13:31,106 - __main__:154: fastloopcount 1 heatminutes 0
+2019-11-06 08:13:31,809 - owif:53: readtemp 28.762079A20003 -> 20.875
+2019-11-06 08:13:31,819 - __main__:210: Sleeping 59.2865591049 seconds
+2019-11-06 08:14:31,145 - __main__:154: fastloopcount 2 heatminutes 0
+2019-11-06 08:14:31,958 - owif:53: readtemp 28.762079A20003 -> 20.8125
+2019-11-06 08:14:31,966 - __main__:210: Sleeping 59.181032896 seconds
+2019-11-06 08:15:31,209 - __main__:154: fastloopcount 3 heatminutes 0
+2019-11-06 08:15:31,929 - owif:53: readtemp 28.762079A20003 -> 20.75
+2019-11-06 08:15:31,943 - __main__:210: Sleeping 59.2666530609 seconds
+2019-11-06 08:16:31,266 - __main__:154: fastloopcount 4 heatminutes 0
+2019-11-06 08:16:31,939 - owif:53: readtemp 28.762079A20003 -> 20.75
+2019-11-06 08:16:31,946 - __main__:210: Sleeping 59.3209280968 seconds
+2019-11-06 08:17:31,330 - __main__:154: fastloopcount 5 heatminutes 0
+2019-11-06 08:17:32,053 - owif:53: readtemp 28.762079A20003 -> 20.75
+2019-11-06 08:17:32,074 - __main__:210: Sleeping 59.2550909519 seconds
+2019-11-06 08:18:31,386 - __main__:154: fastloopcount 6 heatminutes 0
+2019-11-06 08:18:32,049 - owif:53: readtemp 28.762079A20003 -> 20.75
+2019-11-06 08:18:32,058 - __main__:210: Sleeping 59.3274049759 seconds
+2019-11-06 08:19:31,450 - __main__:154: fastloopcount 7 heatminutes 0
+2019-11-06 08:19:32,253 - owif:53: readtemp 28.762079A20003 -> 20.6875
+2019-11-06 08:19:32,260 - __main__:210: Sleeping 59.1895530224 seconds
+2019-11-06 08:20:31,495 - __main__:154: fastloopcount 8 heatminutes 0
+2019-11-06 08:20:32,159 - owif:53: readtemp 28.762079A20003 -> 20.6875
+2019-11-06 08:20:32,169 - __main__:210: Sleeping 59.326310873 seconds
+2019-11-06 08:21:31,560 - __main__:154: fastloopcount 9 heatminutes 0
+2019-11-06 08:21:32,299 - owif:53: readtemp 28.762079A20003 -> 20.625
+2019-11-06 08:21:32,305 - __main__:210: Sleeping 59.2552931309 seconds
+2019-11-06 08:22:31,630 - __main__:154: fastloopcount 10 heatminutes 0
+2019-11-06 08:22:32,299 - owif:53: readtemp 28.762079A20003 -> 20.625
+2019-11-06 08:22:32,313 - __main__:210: Sleeping 59.3171608448 seconds
+2019-11-06 08:23:31,695 - __main__:154: fastloopcount 11 heatminutes 0
+2019-11-06 08:23:32,417 - owif:53: readtemp 28.762079A20003 -> 20.5625
+2019-11-06 08:23:32,423 - __main__:210: Sleeping 59.2719938755 seconds
+2019-11-06 08:24:31,746 - __main__:154: fastloopcount 12 heatminutes 0
+2019-11-06 08:24:32,489 - owif:53: readtemp 28.762079A20003 -> 20.5625
+2019-11-06 08:24:32,502 - __main__:210: Sleeping 59.2437591553 seconds
+2019-11-06 08:25:31,775 - __main__:154: fastloopcount 13 heatminutes 0
+2019-11-06 08:25:32,479 - owif:53: readtemp 28.762079A20003 -> 20.5
+2019-11-06 08:25:32,484 - __main__:210: Sleeping 59.2908549309 seconds
+2019-11-06 08:26:31,839 - __main__:154: fastloopcount 14 heatminutes 0
+2019-11-06 08:26:32,527 - owif:53: readtemp 28.762079A20003 -> 20.5
+2019-11-06 08:26:32,538 - __main__:210: Sleeping 59.3033201694 seconds
+2019-11-06 08:27:31,896 - __main__:154: fastloopcount 15 heatminutes 0
+2019-11-06 08:27:32,639 - owif:53: readtemp 28.762079A20003 -> 20.5
+2019-11-06 08:27:32,653 - __main__:210: Sleeping 59.2423028946 seconds
+2019-11-06 08:28:31,960 - __main__:154: fastloopcount 16 heatminutes 0
+2019-11-06 08:28:32,639 - owif:53: readtemp 28.762079A20003 -> 20.5
+2019-11-06 08:28:32,650 - __main__:210: Sleeping 59.3096339703 seconds
+2019-11-06 08:29:31,995 - __main__:154: fastloopcount 17 heatminutes 0
+2019-11-06 08:29:32,769 - owif:53: readtemp 28.762079A20003 -> 20.4375
+2019-11-06 08:29:32,779 - __main__:210: Sleeping 59.2165720463 seconds
+2019-11-06 08:30:32,060 - __main__:154: fastloopcount 18 heatminutes 0
+2019-11-06 08:30:32,744 - owif:53: readtemp 28.762079A20003 -> 20.4375
+2019-11-06 08:30:32,750 - __main__:210: Sleeping 59.3097310066 seconds
+2019-11-06 08:31:32,124 - __main__:154: fastloopcount 19 heatminutes 0
+2019-11-06 08:31:32,829 - owif:53: readtemp 28.762079A20003 -> 20.4375
+2019-11-06 08:31:32,839 - __main__:210: Sleeping 59.2850980759 seconds
+2019-11-06 08:32:32,189 - __main__:154: fastloopcount 20 heatminutes 0
+2019-11-06 08:32:32,885 - owif:53: readtemp 28.762079A20003 -> 20.4375
+2019-11-06 08:32:32,908 - __main__:210: Sleeping 59.2805519104 seconds
+2019-11-06 08:33:32,246 - __main__:154: fastloopcount 21 heatminutes 0
+2019-11-06 08:33:32,949 - owif:53: readtemp 28.762079A20003 -> 20.4375
+2019-11-06 08:33:32,960 - __main__:210: Sleeping 59.2872669697 seconds
+2019-11-06 08:34:32,306 - __main__:154: fastloopcount 22 heatminutes 0
+2019-11-06 08:34:33,079 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 08:34:33,086 - __main__:210: Sleeping 59.220279932 seconds
+2019-11-06 08:35:32,369 - __main__:154: fastloopcount 23 heatminutes 0
+2019-11-06 08:35:33,109 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 08:35:33,119 - __main__:210: Sleeping 59.249145031 seconds
+2019-11-06 08:36:32,426 - __main__:154: fastloopcount 24 heatminutes 0
+2019-11-06 08:36:33,098 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 08:36:33,106 - __main__:210: Sleeping 59.3210830688 seconds
+2019-11-06 08:37:32,492 - __main__:154: fastloopcount 25 heatminutes 0
+2019-11-06 08:37:33,221 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 08:37:33,232 - __main__:210: Sleeping 59.2604708672 seconds
+2019-11-06 08:38:32,568 - __main__:154: fastloopcount 26 heatminutes 0
+2019-11-06 08:38:33,239 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 08:38:33,250 - __main__:210: Sleeping 59.3183979988 seconds
+2019-11-06 08:39:32,625 - __main__:154: fastloopcount 27 heatminutes 0
+2019-11-06 08:39:33,439 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 08:39:33,446 - __main__:210: Sleeping 59.1810050011 seconds
+2019-11-06 08:40:32,690 - __main__:154: fastloopcount 28 heatminutes 0
+2019-11-06 08:40:33,359 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 08:40:33,369 - __main__:210: Sleeping 59.3212640285 seconds
+2019-11-06 08:41:32,746 - __main__:154: fastloopcount 29 heatminutes 0
+2019-11-06 08:41:33,459 - owif:53: readtemp 28.762079A20003 -> 20.25
+2019-11-06 08:41:33,470 - __main__:210: Sleeping 59.2759649754 seconds
+2019-11-06 08:42:32,809 - __main__:154: fastloopcount 0 heatminutes 0
+2019-11-06 08:42:33,479 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 08:42:34,705 - PID:103: PID: dt 1801.647704 error 0.19 integral  4.691791
+2019-11-06 08:42:34,711 - __main__:210: Sleeping 58.0979790688 seconds
+2019-11-06 08:43:32,872 - __main__:154: fastloopcount 1 heatminutes 0
+2019-11-06 08:43:33,589 - owif:53: readtemp 28.762079A20003 -> 20.25
+2019-11-06 08:43:33,598 - __main__:210: Sleeping 59.2739818096 seconds
+2019-11-06 08:44:32,937 - __main__:154: fastloopcount 2 heatminutes 0
+2019-11-06 08:44:33,679 - owif:53: readtemp 28.762079A20003 -> 20.25
+2019-11-06 08:44:33,688 - __main__:210: Sleeping 59.2493851185 seconds
+2019-11-06 08:45:32,996 - __main__:154: fastloopcount 3 heatminutes 0
+2019-11-06 08:45:33,699 - owif:53: readtemp 28.762079A20003 -> 20.1875
+2019-11-06 08:45:33,708 - __main__:210: Sleeping 59.2873570919 seconds
+2019-11-06 08:47:09,323 - __main__:154: fastloopcount 0 heatminutes 0
+2019-11-06 08:47:10,672 - owif:53: readtemp 28.762079A20003 -> 20.1875
+2019-11-06 08:47:13,609 - __main__:175: PID tunings: Kp 50.00 Ki 0.01 Kd 0.00
+2019-11-06 08:47:13,611 - PID:103: PID: dt 0.001914 error 0.31 integral  0.000008
+2019-11-06 08:47:13,631 - __main__:210: Sleeping 55.6919708252 seconds
+2019-11-06 08:47:13,722 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
