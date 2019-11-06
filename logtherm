@@ -10199,3 +10199,115 @@ exUnknownSensor: '/28.762079A20003/type'
 2019-11-06 07:12:02,229 - owif:53: readtemp 28.762079A20003 -> 20.625
 2019-11-06 07:12:03,769 - __main__:204: Sleeping 57.7826559544 seconds
 2019-11-06 07:12:03,837 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
+2019-11-06 07:12:04,163 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'commit', '-q', '-m', 'n']]
+2019-11-06 07:12:04,234 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'push', '-q']]
+2019-11-06 07:13:01,614 - __main__:152: innerloopcount 1 heatminutes 0
+2019-11-06 07:13:02,310 - owif:53: readtemp 28.762079A20003 -> 20.5625
+2019-11-06 07:13:02,317 - __main__:204: Sleeping 59.2965569496 seconds
+2019-11-06 07:14:01,678 - __main__:152: innerloopcount 2 heatminutes 0
+2019-11-06 07:14:02,379 - owif:53: readtemp 28.762079A20003 -> 20.625
+2019-11-06 07:14:02,389 - __main__:204: Sleeping 59.2894129753 seconds
+2019-11-06 07:15:01,743 - __main__:152: innerloopcount 3 heatminutes 0
+2019-11-06 07:15:02,436 - owif:53: readtemp 28.762079A20003 -> 20.5625
+2019-11-06 07:15:02,442 - __main__:204: Sleeping 59.300688982 seconds
+2019-11-06 07:16:01,818 - __main__:152: innerloopcount 4 heatminutes 0
+2019-11-06 07:16:02,589 - owif:53: readtemp 28.762079A20003 -> 20.4375
+2019-11-06 07:16:02,600 - __main__:204: Sleeping 59.2185771465 seconds
+2019-11-06 07:17:01,866 - __main__:152: innerloopcount 5 heatminutes 0
+2019-11-06 07:17:03,139 - owif:53: readtemp 28.762079A20003 -> 20.4375
+2019-11-06 07:17:03,149 - __main__:204: Sleeping 58.7176990509 seconds
+2019-11-06 07:18:01,930 - __main__:152: innerloopcount 6 heatminutes 0
+2019-11-06 07:18:02,629 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:18:02,640 - __main__:204: Sleeping 59.2904579639 seconds
+2019-11-06 07:19:01,985 - __main__:152: innerloopcount 7 heatminutes 0
+2019-11-06 07:19:02,703 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:19:02,710 - __main__:204: Sleeping 59.2750530243 seconds
+2019-11-06 07:20:02,056 - __main__:152: innerloopcount 8 heatminutes 0
+2019-11-06 07:20:02,769 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:20:02,780 - __main__:204: Sleeping 59.2763319016 seconds
+2019-11-06 07:21:02,116 - __main__:152: innerloopcount 9 heatminutes 0
+2019-11-06 07:21:02,869 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:21:02,874 - __main__:204: Sleeping 59.2410600185 seconds
+2019-11-06 07:22:02,180 - __main__:152: innerloopcount 10 heatminutes 0
+2019-11-06 07:22:02,899 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:22:02,913 - __main__:204: Sleeping 59.2670648098 seconds
+2019-11-06 07:23:02,236 - __main__:152: innerloopcount 11 heatminutes 0
+2019-11-06 07:23:02,909 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:23:02,915 - __main__:204: Sleeping 59.3209550381 seconds
+2019-11-06 07:24:02,246 - __main__:152: innerloopcount 12 heatminutes 0
+2019-11-06 07:24:02,727 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:24:02,738 - __main__:204: Sleeping 59.5073900223 seconds
+2019-11-06 07:25:02,324 - __main__:152: innerloopcount 13 heatminutes 0
+2019-11-06 07:25:02,990 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:25:02,999 - __main__:204: Sleeping 59.3252079487 seconds
+2019-11-06 07:26:02,390 - __main__:152: innerloopcount 14 heatminutes 0
+2019-11-06 07:26:03,222 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:26:03,229 - __main__:204: Sleeping 59.1617200375 seconds
+2019-11-06 07:27:02,454 - __main__:152: innerloopcount 15 heatminutes 0
+2019-11-06 07:27:03,119 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:27:03,133 - __main__:204: Sleeping 59.3203721046 seconds
+2019-11-06 07:28:02,496 - __main__:152: innerloopcount 16 heatminutes 0
+2019-11-06 07:28:03,239 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:28:03,251 - __main__:204: Sleeping 59.2441730499 seconds
+2019-11-06 07:29:02,572 - __main__:152: innerloopcount 17 heatminutes 0
+2019-11-06 07:29:03,239 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:29:03,250 - __main__:204: Sleeping 59.3219640255 seconds
+2019-11-06 07:30:02,625 - __main__:152: innerloopcount 18 heatminutes 0
+2019-11-06 07:30:02,865 - owif:56: Could not read temperature from 28.762079A20003
+Traceback (most recent call last):
+  File "/home/dockes/thermcontrol/src/owif.py", line 51, in readtemp
+    sensor = createSensor(sensorid)
+  File "/home/dockes/thermcontrol/src/owif.py", line 46, in createSensor
+    return ow.Sensor('/' + id_ow(id))
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 268, in __init__
+    self.useCache( self._useCache )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 411, in useCache
+    self._type  = owfs_get( '%s/type' % self._usePath )
+  File "/usr/lib/python2.7/dist-packages/ow/__init__.py", line 156, in _get
+    raise exUnknownSensor(path)
+exUnknownSensor: '/28.762079A20003/type'
+2019-11-06 07:30:02,879 - __main__:123: Could not get temp
+2019-11-06 07:31:02,960 - __main__:152: innerloopcount 18 heatminutes 0
+2019-11-06 07:31:03,699 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:31:03,710 - __main__:204: Sleeping 59.2507190704 seconds
+2019-11-06 07:32:03,016 - __main__:152: innerloopcount 19 heatminutes 0
+2019-11-06 07:32:03,719 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:32:03,730 - __main__:204: Sleeping 59.2860209942 seconds
+2019-11-06 07:33:03,079 - __main__:152: innerloopcount 20 heatminutes 0
+2019-11-06 07:33:04,358 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:33:04,373 - __main__:204: Sleeping 58.7060990334 seconds
+2019-11-06 07:34:03,136 - __main__:152: innerloopcount 21 heatminutes 0
+2019-11-06 07:34:03,839 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:34:03,849 - __main__:204: Sleeping 59.2865669727 seconds
+2019-11-06 07:35:03,178 - __main__:152: innerloopcount 22 heatminutes 0
+2019-11-06 07:35:03,859 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:35:03,866 - __main__:204: Sleeping 59.3121159077 seconds
+2019-11-06 07:36:03,241 - __main__:152: innerloopcount 23 heatminutes 0
+2019-11-06 07:36:04,019 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:36:04,029 - __main__:204: Sleeping 59.2118051052 seconds
+2019-11-06 07:37:03,305 - __main__:152: innerloopcount 24 heatminutes 0
+2019-11-06 07:37:03,996 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:37:04,004 - __main__:204: Sleeping 59.3013269901 seconds
+2019-11-06 07:38:03,366 - __main__:152: innerloopcount 25 heatminutes 0
+2019-11-06 07:38:04,069 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:38:04,083 - __main__:204: Sleeping 59.2833240032 seconds
+2019-11-06 07:39:03,431 - __main__:152: innerloopcount 26 heatminutes 0
+2019-11-06 07:39:04,729 - owif:53: readtemp 28.762079A20003 -> 20.375
+2019-11-06 07:39:04,734 - __main__:204: Sleeping 58.6964178085 seconds
+2019-11-06 07:40:03,494 - __main__:152: innerloopcount 27 heatminutes 0
+2019-11-06 07:40:04,199 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:40:04,208 - __main__:204: Sleeping 59.2860219479 seconds
+2019-11-06 07:41:03,560 - __main__:152: innerloopcount 28 heatminutes 0
+2019-11-06 07:41:04,398 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:41:04,406 - __main__:204: Sleeping 59.1554830074 seconds
+2019-11-06 07:42:03,584 - __main__:152: innerloopcount 29 heatminutes 0
+2019-11-06 07:42:04,299 - owif:53: readtemp 28.762079A20003 -> 20.25
+2019-11-06 07:42:04,309 - __main__:204: Sleeping 59.2748091221 seconds
+2019-11-06 07:43:03,617 - __main__:152: innerloopcount 0 heatminutes 0
+2019-11-06 07:43:04,298 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:43:05,509 - __main__:204: Sleeping 58.108068943 seconds
+2019-11-06 07:45:42,303 - __main__:154: fastloopcount 0 heatminutes 0
+2019-11-06 07:45:43,059 - owif:53: readtemp 28.762079A20003 -> 20.3125
+2019-11-06 07:45:44,261 - __main__:175: PID tunings: Kp 50.00 Ki 0.50 Kd 0.00
+2019-11-06 07:45:44,272 - __main__:210: Sleeping 58.0309648514 seconds
+2019-11-06 07:45:44,314 - root:44: RUNNING [['git', '--work-tree=/home/dockes/thermdata', '--git-dir=/home/dockes/thermdata/.git', 'add', '.']]
